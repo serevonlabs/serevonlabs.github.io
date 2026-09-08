@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>隐私政策 — ContinuCam</title><style>
+:root { color-scheme: light dark; --bg:#06172f; --panel:#0c2344; --text:#f4f7fb; --muted:#b9c6d8; --blue:#1092fd; --line:#27476e; }
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.62}
+main{max-width:900px;margin:0 auto;padding:28px 22px 64px}.brand{font-size:30px;font-weight:800;letter-spacing:-.6px;margin:0}.brand .cam{color:var(--blue)}
+.subtitle{color:var(--muted);margin:4px 0 22px}.toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;border:1px solid var(--line);background:var(--panel);padding:12px 14px;border-radius:14px;margin-bottom:24px}
+select{font:inherit;padding:8px 10px;border-radius:10px;background:var(--bg);color:var(--text);border:1px solid var(--line)} a{color:#69b8ff}.meta{color:var(--muted);font-size:.94rem}.card{border:1px solid var(--line);background:var(--panel);border-radius:18px;padding:24px;margin:18px 0}
+h1{font-size:2rem;margin:8px 0 4px} h2{font-size:1.25rem;margin:28px 0 8px;color:#ddebff} p,li{color:#e5ebf4} strong{color:white}.notice{border-left:4px solid var(--blue);padding:10px 14px;background:#0b2b55;border-radius:8px}.footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8fb;--panel:#fff;--text:#132034;--muted:#53657a;--line:#dce5ef}.notice{background:#eaf5ff} h2{color:#16395f} strong{color:#132034}}
+</style></head>
+<body><main>
+<div class="brand">Continu<span class="cam">Cam</span></div><div class="subtitle">Serevon Labs</div>
+<div class="toolbar"><span class="meta">生效日期：2026年9月8日</span><label><span class="meta">Language / اللغة / 语言: </span><select onchange="location.href=this.value"><option value="en.html">English</option><option value="es.html">Español</option><option value="fr.html">Français</option><option value="de.html">Deutsch</option><option value="it.html">Italiano</option><option value="pt-BR.html">Português (Brasil)</option><option value="zh-CN.html" selected>简体中文</option><option value="hi.html">हिन्दी</option><option value="ar.html">العربية</option><option value="ru.html">Русский</option><option value="uk.html">Українська</option><option value="ko.html">한국어</option></select></label></div>
+<div class="card"><h1>隐私政策</h1><p>本隐私政策说明当您使用 <strong>ContinuCam</strong> 时，<strong>Serevon Labs</strong> 如何处理相关信息。ContinuCam 是一款以隐私和设备本地处理为核心的视频录制应用。使用 ContinuCam 不需要 Serevon Labs 账户，您的录制内容也不会上传到 Serevon Labs 服务器。</p><h2>1. ContinuCam 访问的信息</h2>
+<p>ContinuCam 可能会访问为提供您主动使用的功能所必需的信息，包括摄像头和麦克风输入、摄像头与镜头能力、录制方向、设备可用存储空间、电池与充电状态、设备温度状态、应用与录制状态、Google Play 订阅权益信息、Google Play 更新资格/状态，以及保存在设备本地的偏好设置，例如语言、日期与时间格式、PIN 锁设置、生物识别偏好和授权审核访问状态。</p><p>在正常运行情况下，ContinuCam 不会请求您的精确位置、联系人、短信、通话记录或广告标识符。ContinuCam 不集成广告或分析 SDK。</p><h2>2. 录制内容与加密保险库</h2>
+<p>只有在您主动开始录制时，ContinuCam 才会采集视频和音频。完成的录制内容保存在应用专用存储空间中，并使用 AES-256-GCM 加密。当前录制采用 ContinuCam 的 CCV4 信封加密设计：每个录制文件都会生成一把随机 AES-256 数据密钥，相关密钥材料由 Android Keystore 保护。为保持兼容性，ContinuCam 仍可读取旧版保险库格式。</p><p>ContinuCam <strong>不会</strong>将您的录制内容上传给 Serevon Labs。除非您主动导出或分享，否则录制内容会保留在您的设备上。</p><h2>3. 导出与分享</h2>
+<p>当您选择<strong>导出</strong>时，ContinuCam 会在加密保险库之外创建一个未加密的媒体副本。当您选择<strong>分享</strong>时，ContinuCam 可能会在应用专用缓存中创建临时未加密副本，并向您选择的接收应用授予临时访问权限。一旦录制内容被导出、分享、复制、备份，或被其他应用/个人接收，ContinuCam 将无法控制该副本之后的存储、传输或使用方式。</p><h2>4. PIN 与生物识别安全</h2>
+<p>ContinuCam 不会以可读明文形式保存您的 PIN。设备本地仅保存由 PIN 和随机盐值派生出的验证信息。生物识别验证由 Android 系统的生物识别 API 完成。ContinuCam 不会接收或保存指纹、面部或其他生物识别模板。</p><h2>5. Google Play 订阅与更新</h2>
+<p>ContinuCam Premium 通过 Google Play 提供。付款信息由 Google Play 处理；ContinuCam 不会接收或保存您的完整银行卡信息。ContinuCam 会接收判断是否应启用 Premium 功能所需的购买/订阅元数据，并可能在设备本地缓存权益状态。</p><p>ContinuCam 还可能向 Google Play 查询应用更新是否可用，并使用 Google Play 的应用内更新流程。Google 对相关信息的处理受 Google 自身条款与隐私政策约束。</p><h2>6. 权限与设备服务</h2>
+<p>根据您使用的功能，ContinuCam 可能需要摄像头、麦克风、生物识别、前台服务、唤醒锁和 Google Play 结算等能力。录制期间，Android 可能显示摄像头/麦克风隐私指示以及前台服务信息。您可以在 Android 设置中管理相关权限；关闭某项必要权限可能导致对应功能无法使用。</p><h2>7. 数据共享与出售</h2>
+<p>Serevon Labs 不出售您的录制内容或个人信息，也不会使用 ContinuCam 提供行为定向广告。ContinuCam 不会将录制内容发送给广告商、分析服务商或 Serevon Labs。当您使用结算或更新服务时，Google Play 可能会处理相关信息；当您主动分享录制内容时，您选择的应用会接收相应内容；如果您联系客户支持，您的电子邮件服务商也可能处理您发送的信息。</p><h2>8. 保存与删除</h2>
+<p>加密录制内容会保留在您的设备上，直至您主动删除、清除 ContinuCam 应用数据或卸载应用。清除应用数据或卸载 ContinuCam 也可能删除解密私有保险库所需的 Android Keystore 密钥材料，从而导致仍存在的加密文件无法访问。导出的副本位于保险库之外，需要您在保存位置或相关应用中单独删除。</p><p>本地偏好设置和权益缓存通常会一直保留，直至应用数据被清除或应用被卸载。</p><h2>9. 安全措施</h2>
+<p>ContinuCam 使用应用专用存储、认证加密、Android Keystore 保护、可选的 PIN/生物识别访问控制，以及受控的导出与分享流程，以降低未经授权访问的风险。但是，任何软件、设备或存储介质都无法保证绝对安全。对于因设备被入侵、操作系统或硬件故障、用户操作或应用无法控制的其他情况导致的录制丢失或被访问，Serevon Labs 无法作出绝对保证。</p><h2>10. 未成年人</h2>
+<p>ContinuCam 并非用于创建儿童账户，也不会通过 Serevon Labs 服务有意收集儿童的个人信息。由于不同地区对录制与同意的法律要求不同，如法律要求，应由父母、监护人或其他负责任的成年人监督使用。</p><h2>11. 国际使用</h2>
+<p>ContinuCam 的加密录制内容设计为保留在设备本地。您自行选择使用的第三方服务（包括 Google Play、电子邮件、云备份、导出目标或分享应用）可能会依照其自身政策和适用法律在其他国家或地区处理信息。</p><h2>12. 本政策的变更</h2>
+<p>如果 ContinuCam 的功能、法律要求或数据处理方式发生变化，我们可能会更新本隐私政策。政策变更时，本页顶部的生效日期也会相应更新。</p><h2>13. 联系方式</h2>
+<p>如对本隐私政策有任何疑问，请通过 <a href="mailto:serevon.studio@gmail.com">serevon.studio@gmail.com</a> 联系 <strong>Serevon Labs</strong>。</p></div>
+<p><a href="../terms/zh-CN.html">查看服务条款</a></p>
+<div class="footer">© 2026 Serevon Labs · ContinuCam · serevon.studio@gmail.com</div>
+</main></body></html>
